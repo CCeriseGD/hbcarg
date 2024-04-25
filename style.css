@@ -97,6 +97,6 @@ p>img {
     position: relative;
     top: 2px; left: -1px;
 }
-.nowrap {
+.nowrap, a {
     white-space: nowrap
 }
