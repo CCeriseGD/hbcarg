@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html><head><script>
 const urlParams = new URLSearchParams(window.location.search);
-window.location.replace("https://ccerisegd.github.io/firebackup/fire/part" + urlParams.get("p") + ".html#chatlog__message-container-" + urlParams.get("id"))
+console.log(urlParams.get("p"))
+if (urlParams.get("p") == "f") {
+    window.location.replace("https://discord.com/channels/1117766959266791484/1136810249630781533/" + urlParams.get("id"))
+} else {
+    window.location.replace("https://ccerisegd.github.io/firebackup/fire/part" + urlParams.get("p") + ".html#chatlog__message-container-" + urlParams.get("id"))
+}
 </script></head></html>
